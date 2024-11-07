@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>L-3 | Projects</title>
+   </head>
+   <body>
+      <div class="header">
+         <div class="container">
+            <div class="header__body">
+               <div class="header__logo"></div>
+               <div>
+                  <nav class="header__nav">
+                     <ul class="header__list">
+                        <li class="header__item">
+                           <a href="home.html" class="header__link">Home</a>
+                        </li>
+                        <li class="header__item">
+                           <a href="portfolio.html" class="header__link"
+                              >Portfolio</a
+                           >
+                        </li>
+                        <li class="header__item">
+                           <a href="home.html#skills" class="header__link"
+                              >My Skills</a
+                           >
+                        </li>
+                        <li class="header__item">
+                           <a href="home.html#hobbies" class="header__link"
+                              >My Hobbies</a
+                           >
+                        </li>
+                     </ul>
+                  </nav>
+                  <div class="header__burger" onclick="toggleHeader()"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <main>
+         <section class="recent-works">
+            <div class="container">
+               <div class="recent-works__body">
+                  <h2 class="sub-title">Projects</h2>
+                  <ul class="recent-works__list special">
+                     <li>
+                        <a target="_blank" href="https://daniel-diacon.com/"
+                           >Daniel's Portfolio</a
+                        >
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://styzzo.shop/"
+                           >Styzzo Shop</a
+                        >
+                     </li>
+                     <li>
+                        <a
+                           target="_blank"
+                           href="https://danieldiacon.github.io/chippies-portfolio/"
+                           >Chippies' Portfolio</a
+                        >
+                     </li>
+                     <a href="/portfolio.html"></a>
+                     <li>
+                        <a
+                           target="_blank"
+                           href="https://danieldiacon.github.io/byte2byte/"
+                           >Byte To Byte</a
+                        >
+                     </li>
+                     <li>
+                        <a
+                           target="_blank"
+                           href="https://danieldiacon.github.io/AIArt/"
+                           >AI Art</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+      </main>
+      <script>
+         function toggleHeader() {
+            document.querySelector(".header").classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>
