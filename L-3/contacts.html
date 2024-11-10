@@ -4,7 +4,7 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="style.css" />
-      <title>Web Portfolio | Works</title>
+      <title>Web Portfolio | Contacts</title>
    </head>
    <body>
       <div class="header">
@@ -45,50 +45,36 @@
          </div>
       </div>
       <main>
-         <section class="recent-works">
+         <section class="contacts">
             <div class="container">
-               <div class="recent-works__body">
-                  <h2 class="sub-title">Projects</h2>
-                  <ul class="recent-works__list special">
-                     <li>
-                        <a target="_blank" href="https://daniel-diacon.com/"
-                           >Daniel's Portfolio</a
-                        >
-                     </li>
-                     <li>
-                        <a target="_blank" href="https://styzzo.shop/"
-                           >Styzzo Shop</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           target="_blank"
-                           href="https://danieldiacon.github.io/chippies-portfolio/"
-                           >Chippies' Portfolio</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           target="_blank"
-                           href="https://danieldiacon.github.io/byte2byte/"
-                           >Byte To Byte</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           target="_blank"
-                           href="https://danieldiacon.github.io/AIArt/"
-                           >AI Art</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           target="_blank"
-                           href="https://danieldiacon.github.io/styzzo.beats/"
-                           >80's</a
-                        >
-                     </li>
-                  </ul>
+               <div class="contacts__body">
+                  <h1 class="sub-title">Send a message</h1>
+                  <form action="#" class="contacts__form">
+                     <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        class="contacts__input"
+                        placeholder="Full Name"
+                     />
+                     <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        class="contacts__input"
+                        placeholder="E-mail"
+                     />
+                     <textarea
+                        type="textarea"
+                        id="message"
+                        name="message"
+                        class="contacts__input"
+                        placeholder="Write a message..."
+                     ></textarea>
+                     <div class="contacts__row">
+                        <button class="contacts__button">Send Message</button>
+                     </div>
+                  </form>
                </div>
             </div>
          </section>
